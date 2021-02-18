@@ -9,6 +9,7 @@ var ground,box1,box2,box3,box4,box5,box6,ball,polygonImg,canvas;
 var score=0;
 function preload(){
     polygonImg=loadImage("polygon.png");
+    getbackgroundImg(){
 }
 function setup(){
     var canvas = createCanvas(400,400)
@@ -32,7 +33,7 @@ Engine.run(engine);
 }
 function draw(){
     
-    background("white");
+   if( background(backgroundImg));
     ground.display();
     box1.display();
     box2.display();
